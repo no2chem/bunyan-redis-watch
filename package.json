@@ -4,7 +4,13 @@
   "version": "0.0.1",
   "author": "Michael Wei <mwei@cs.ucsd.edu>",
   "main": "build/bunayn-redis-watch.js",
-  "private": "true",
+  "keywords": ["bunyan", "bunyan-redis", "log", "redis"],
+  "preferGlobal": true,
+  "license": "Apache-2.0",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/no2chem/bunyan-redis-watch"
+  },
   "dependencies": {
     "pkginfo": "^0.3.0",
     "redis": "^0.12.1",
