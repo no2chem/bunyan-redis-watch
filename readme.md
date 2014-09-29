@@ -26,3 +26,6 @@ redis docs, each MONITOR client can reduce throughput by more than 50%.
 
 Therefore, it is recommended that you only use this tool for debugging, since it
 will have a significant impact on the performance of your REDIS infrastructure.
+
+In addition, in order to not replicate the infrastructure in bunyan for printings messages,
+it uses the bunyan CLI tool to print messages.
