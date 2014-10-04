@@ -38,8 +38,6 @@ client.on("monitor", function (time, args) {
                                   .replaceAll('\\ ', '')
                                   .replaceAll('\\}', '}')
                                   .replaceAll('\\\\', '\\')
-                                  .replaceAll("\\'", '\'')
-                                  .replaceAll('\\"', '\"').s
         bunyan.stdin.write(unescaped + "\n");
     }
 });

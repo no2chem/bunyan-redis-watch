@@ -1,7 +1,7 @@
 {
   "name": "bunyan-redis-watch",
   "description": "Watch a bunyan log stream in redis",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Michael Wei <mwei@cs.ucsd.edu>",
   "main": "build/bunayn-redis-watch.js",
   "keywords": [
