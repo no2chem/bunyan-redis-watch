@@ -17,6 +17,7 @@
     "url": "https://github.com/no2chem/bunyan-redis-watch"
   },
   "dependencies": {
+    "bluebird": "^2.3.5",
     "pkginfo": "^0.3.0",
     "redis": "^0.12.1",
     "string": "^2.1.0",
